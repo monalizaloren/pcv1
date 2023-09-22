@@ -1573,6 +1573,63 @@ function textgu() {
   }
 }
 
+function imgman() {
+  const titleElement = document.querySelector('.man');
+
+  if (window.innerWidth <= 768) {
+    // Adicionar a classe .gt e remover a classe .guilherme-title
+    titleElement.classList.add('man1');
+    titleElement.classList.remove('man');
+  } else {
+    // Adicionar a classe .guilherme-title e remover a classe .gt
+    titleElement.classList.add('man');
+    titleElement.classList.remove('man1');
+  }
+}
+function functioncardd() {
+  const titleElement = document.querySelector('.cardd');
+
+  if (window.innerWidth <= 768) {
+    // Adicionar a classe .gt e remover a classe .guilherme-title
+    titleElement.classList.add('cardd1');
+    titleElement.classList.remove('cardd');
+  } else {
+    // Adicionar a classe .guilherme-title e remover a classe .gt
+    titleElement.classList.add('cardd');
+    titleElement.classList.remove('cardd1');
+  }
+}
+function cardrosa() {
+  const titleElement = document.querySelector('.short-card');
+
+  if (window.innerWidth <= 768) {
+    // Adicionar a classe .gt e remover a classe .guilherme-title
+    titleElement.classList.add('short-card1');
+    titleElement.classList.remove('short-card');
+  } else {
+    // Adicionar a classe .guilherme-title e remover a classe .gt
+    titleElement.classList.add('short-card');
+    titleElement.classList.remove('short-card1');
+  }
+}
+
+
+function cardazul() {
+  const titleElement = document.querySelector('.short-cards2');
+
+  if (window.innerWidth <= 768) {
+    // Adicionar a classe .gt e remover a classe .guilherme-title
+    titleElement.classList.add('short-cards2azul');
+    titleElement.classList.remove('short-cards2');
+  } else {
+    // Adicionar a classe .guilherme-title e remover a classe .gt
+    titleElement.classList.add('short-cards2');
+    titleElement.classList.remove('short-cards2azul');
+  }
+}
+
+
+
 
 
 // Chamar a função quando a página carregar e redimensionar a tela
@@ -1586,6 +1643,14 @@ window.addEventListener('load', btngu);
 window.addEventListener('resize', btngu);
 window.addEventListener('load', textgu);
 window.addEventListener('resize', textgu);
+window.addEventListener('load', imgman);
+window.addEventListener('resize', imgman);
+window.addEventListener('load', functioncardd);
+window.addEventListener('resize', functioncardd);
+window.addEventListener('load', cardrosa);
+window.addEventListener('resize', cardrosa);
+window.addEventListener('load', cardazul);
+window.addEventListener('resize', cardazul);
     </script>
 </body>
 
