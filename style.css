@@ -169,7 +169,7 @@
         padding: 0.1%;
     }
     .glass{
-        top: 100%;
+       width: 1%;
     }
     .subtext-dev{
         color: red;
