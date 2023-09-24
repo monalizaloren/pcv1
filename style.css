@@ -182,6 +182,7 @@
     }
     .short-card2{
         min-height: 100%;
+        
     }
     .short-card3{
         min-height: 100%;
@@ -197,7 +198,7 @@
     }
     .short-cards2{
         background-color: white;
-        max-width: 100px;
+        max-width: 117px;
     }
     .text-f{        
         top:50%;
@@ -3276,18 +3277,6 @@ h4 {
     position: absolute;
     left: 0;
 }
-
-.short-card2 {
-    border-radius: 11px;
-    background: var(--pcv-cyan, #38BBC8);
-    width: 36px;
-    height: 107.779px;
-    flex-shrink: 0;
-    position: absolute;
-    left: 0;
-}
-
-
 .text-f {
     color: var(--pcv-black, #101010);
     font-family: Montserrat;
