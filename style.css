@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700&family=Montserrat:wght@400;500;600;700;800&display=swap');
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     body {
         width: 100%;
     }
@@ -67,36 +67,46 @@
     }
 
     .textCard {
-        width: 1%;
-        font-size: 1px;
+        padding: 1%;
+        
+        left: 2%;
     }
-
-    .display-card {
-        height: 100%;
-        width: 100%;
-
-    }
-
+.text-future{
+    padding: 2%;
+}
     .subtext-card {
         padding: 2%;
-        width: 60%;
+        max-width: 80%;
+        top: 8%;
     }
 
     .subtext-future {
-        width: 50%;
+        max-width: 80%;
+        padding: 2%;
     }
 
     .subtext-dev {
-        width: 10%;
+        display: flex;
+        max-width: 200px;
+        min-width: 200px;
+        padding: 3%;
+        
     }
+.textDev{
 
+    padding: 2%;
+    
+}
     .dev-two {
         width: 30%;
     }
 
     .cardd {
-        width: 30%;
-        margin-bottom: 15%;
+        max-width: 60%;
+       padding-bottom: 30%;
+       margin-bottom: 10%;
+       
+      
     }
 
     .card-line {
@@ -105,7 +115,7 @@
     }
 
     .short-cards {
-        width: 10%;
+       
         background-color: #00E8FF;
     }
 
@@ -168,14 +178,53 @@
         left: 50%;
         padding: 0.1%;
     }
-    .glass{
-       width: 1%;
+    .short-card{
+        min-height: 100%;
     }
-    .subtext-dev{
-        color: red;
+    .short-card2{
+        min-height: 100%;
+    }
+    .short-card3{
+        min-height: 100%;
+    }
+    .glass{
+        width: 1%;
+    }
+    .textCard-t{
+        max-width: 10%;
+    }
+    .subtext-cards{
+        opacity: 0%;
+    }
+    .short-cards2{
+        background-color: white;
+        max-width: 100px;
+    }
+    .text-f{        
+        top:50%;
+        max-width: 40%;
+    }
+    .subtext-f{
+        opacity: 0%;
+        top:50%;
+    }
+    .number-two{
+        display: flex;
+    }
+    .textD2{
+        max-width: 40%;
+        top: 19%;
+        min-height: 10%;
+        padding-bottom: 30%;
+    }
+    .subtext-d2{
+        opacity: 0%;
+        top:50%;
+    }
+    .btn-dive{
+        min-width: 50%;
     }
 }
-
 * {
     box-sizing: border-box;
     font-family: 'Montserrat';
@@ -3269,6 +3318,22 @@ h4 {
     width: 601px;
 }
 
+
+
+
+
+
+
+.short-card3 {
+    border-radius: 11px;
+    background: var(--pcv-laranja, #EB9203);
+    width: 36px;
+    height: 107.779px;
+    flex-shrink: 0;
+    position: absolute;
+    left: 0;
+}
+
 .glass {
     border-radius: 15px 0px 0px 15px;
     background: url(<path-to-image>), lightgray -463.976px 0px / 180.488% 100% no-repeat;
@@ -3384,20 +3449,6 @@ h4 {
     display: flex;
     flex-direction: column;
     gap: 110px;
-}
-
-.cardSecond {
-    height: 414px;
-    flex-shrink: 0;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    flex-direction: row;
-    position: relative;
-    border-radius: 21px;
-    border-radius: 21px;
-    background: linear-gradient(295deg, #DBE0E0 0%, #FFF 100%);
-    box-shadow: 0px 4px 46px 0px rgba(0, 0, 0, 0.25);
-
 }
 
 .dev-t {
@@ -6298,44 +6349,4 @@ h4 {
 
 .principal-logo{
     width: 133px;
-        }
-        .cardd1{
-            border-radius: 11px 15px 15px 11px;
-            background: var(--pcv-gray, #E9E9E9);
-            box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.59);
-            width: 80%;
-            height: 25%;
-           
-            justify-content: space-between;
-            
-        
-        }
-        .short-card1{
-            border-radius: 11px;
-            background: var(--pcv-rosa, #E50071);
-            width: 36px;
-            height: 223px;
-            flex-shrink: 0;
-            position: absolute;
-            left: 0;
-        }
-        .short-cards2azul{
-            border-radius: 11px;
-            background: var(--pcv-cyan, #38BBC8);
-            width: 36px;
-            height: 107.779px;
-            flex-shrink: 0;
-            position: absolute;
-            left: 0;
-        }
-
-        .short-cardlaranja {
-            border-radius: 11px;
-            background: var(--pcv-laranja, #EB9203);
-            width: 36px;
-            height: 107.779px;
-            flex-shrink: 0;
-            position: absolute;
-            left: 0;
-        
         }
