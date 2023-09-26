@@ -3,22 +3,67 @@
     body {
         width: 100%;
     }
+    .educadores{
+        min-width: 30%;
+        max-width: 30%;
+        display: flex;
+    }
 
     .typography {
         font-size: 39px;
         padding-bottom: 10%;
     }
-
-
+.impacto-social{
+    
+    min-width: 90%;
+        max-width: 90%;
+        display: flex;
+}
+.objetivo{
+    min-width: 80%;
+        max-width: 30%;
+        display: flex;
+}
+.impact{
+    height: 100%;
+}
+.impact1{
+    width: 100%;
+}
+.containerInfo{
+    height: 100%;
+}
+.itens-one{
+    opacity: 0%;
+}
+.info{
+    padding-top: 10%;
+    padding-left: -100%;
+    left: 100%;
+}
+.containerInfo{
+    display: flex;
+    height: 100%;
+}
+.logo{
+   
+    padding-top: 100%;
+}
+.btn-impact{
+    padding-top: 20%;
+}
     .text-typography {
         font-size: 1px;
     }
-
+.icons{
+    opacity: 0%;
+}
     .subtext {
 
-        padding-top: 4%;
-        width: 5%;
-        font-size: 10%;
+        min-width: 30%;
+        max-width: 30%;
+        display: flex;
+        z-index: 1;
     }
 
     .btn-aulagratis {
@@ -223,6 +268,75 @@
     .btn-dive{
         min-width: 50%;
     }
+    .sublimit1 {
+        min-width: 10%;
+        max-width: 10%;
+        display: flex;
+        
+    }
+    .btn-class {
+        min-width: 80%;
+        max-width: 10%;
+        color: #000;
+        font-weight: 600;
+        z-index: 1;
+        font-size: 20px;
+    }
+.referencia{
+    max-width: 60%;
+}
+.curriculum{
+    top: 100%;
+    opacity: 0%;
+}
+.zero2{
+    display: flex;
+    max-width: 100%;
+    min-width: 100%;
+   
+}
+.zero22{
+    display: flex;
+    max-width: 60%;
+    min-width: 60%;
+    right: 20%;
+}
+  .card-aprender{
+    width: 1%;
+    opacity: 0%;
+  }
+  .aprender{
+  font-size: 1px;
+  opacity: 0%;
+  }
+  .zero4,.zero1,zero{
+    max-width: 60%;
+    min-width: 60%;
+  }
+  .card-align{
+    
+    left: 60%;
+  }
+  .btn-class-blue{
+    min-width: 80%;
+        max-width: 10%;
+        color: #000;
+        font-weight: 600;
+        z-index: 1;
+        font-size: 20px; 
+        left: 40%;
+  }
+  .b111{
+    max-width: 80%;
+    min-width: 80%;
+  }
+ .column,.itens-three{
+opacity: 0%;
+width: 1%;
+ }
+ .itens-two-sub{
+    left: 100%;
+ }
 }
 
 * {
@@ -433,7 +547,7 @@ h4 {
     line-height: normal;
 }
 
-.subtext {
+.subtext1 {
     color: #fff;
     font-family: Montserrat;
     font-size: 1.26em;
@@ -447,7 +561,7 @@ h4 {
     flex-shrink: 0;
 }
 
-.sublimit {
+.sublimit1 {
     display: flex;
     margin-top: 2%;
     width: 100%;
@@ -1325,7 +1439,7 @@ h4 {
     margin-left: 0.9%;
     position: absolute;
 }
-@media screen and (max-width: 220px) {
+@media screen and (max-width: 700px) {
 .title-salario {
     text-align: center;
     margin-top: 15%;
@@ -6346,6 +6460,16 @@ h4 {
     font-size: 20px;
 }
 
+.ask-questions {
+    bottom: 20px;
+    right: 20px;
+    position: fixed;
+    z-index: 2000;
+}
+
+.ask-questions img:hover {
+    animation: pulsate 2s infinite;
+}
 .gui {
     display: flex;
     top: -30%;
