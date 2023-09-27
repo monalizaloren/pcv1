@@ -274,6 +274,11 @@
         display: flex;
         
     }
+    .background-benefits{
+        opacity: 0%;
+        width: 1%;
+        height: 1%;
+    }
     .btn-class {
         min-width: 80%;
         max-width: 10%;
@@ -282,6 +287,49 @@
         z-index: 1;
         font-size: 20px;
     }
+      
+   .title-aula{
+    width: 285px;
+   }
+    .svg-card {
+        opacity: 0;
+        width: 1%;
+    }
+
+    .btn-div{
+margin-top: 10px;
+
+    }
+
+    .btn-card{
+        background-color: #fffdfd;
+      width: 298px;
+      border-radius: 0px;
+      margin-top: -1px;
+    }
+
+    .card-grey{
+       width: 100%;
+       background-color: #00E8FF;
+       margin-left: -104px;
+       
+    }
+
+    .card-blue{
+        opacity: 0;
+    }
+
+  
+
+.display-row .form-group {
+    display: block; /* Faz com que as labels ocupem uma linha inteira */
+    margin-bottom: 10px; /* Espaçamento entre labels e inputs */
+    width: 100%; /* Ocupa toda a largura disponível */
+    padding: 5px; /* Adicione algum espaço interno para melhor aparência */
+    margin-bottom: 10px; /* Espaçamento entre inputs */
+    margin: 0 auto; /* Centralize o formulário horizontalmente */
+}
+
 .referencia{
     max-width: 60%;
 }
@@ -336,6 +384,13 @@ width: 1%;
  }
  .itens-two-sub{
     left: 100%;
+ }
+ .display-content{
+   padding-top: 80%;
+ }
+ .contact-us {
+    min-height: 100%;
+    padding-top: 100%;
  }
 }
 
