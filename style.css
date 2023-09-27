@@ -193,7 +193,68 @@
         height: 100%;
         left: -35%;
     }
+    .card-grey{
+        
+    }
+.card-blue{
+    max-width: 25%;
+}
+.btn-div{
+    padding-top: 30%;
+    padding-bottom: 5%;
+   
+}
+.card-grey{
+    min-width: 90%;
+}
+.logo {
+    margin-top: -150px;
+}
 
+.principal-logo {
+    margin-left: 5%;
+}
+
+.itens-two {
+    
+    
+}
+
+.itens-two {
+    margin-left: -47%;
+}
+
+.itens-two-sub {
+    margin-left: -22%;
+
+    margin-top: 61px;
+}
+
+.line-footer {
+    margin-top: -232px;
+}
+
+.direitos {
+    width: 96%;
+    margin-top: -172px;
+    margin-left: 14px;
+}
+
+.title-aula{
+    padding-left: 20%;
+}
+.form{
+   padding-left: 10%;
+}
+.form-control{
+
+   
+}
+.btn-card{
+    padding-top: 100%;
+    position: relative;
+    min-width: 100%;
+}
     .textD2 {
         top: 49%;
         left: -37%;
@@ -388,10 +449,7 @@ width: 1%;
  .display-content{
    padding-top: 80%;
  }
- .contact-us {
-    min-height: 100%;
-    padding-top: 100%;
- }
+ 
 }
 
 * {
